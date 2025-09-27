@@ -1,6 +1,6 @@
-# Space Invaders
+# Space Invaders - Arch / Omarchy build
 
-![Screenshot](https://raw.githubusercontent.com/rubenvanassche/Space-Invaders/master/docs/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/rubenvanassche/Space-Invaders/master/docs/screenshot.jpg)
 
 ## Introduction
 Welcome, to the Space Invaders project, in this docuemnt you find information about how to compile and run the application. Dependencies are SFML and off course a c++ complier+ linker.
@@ -18,6 +18,13 @@ The API is documented and can be found in the docs/html directory, open the inde
 At this moment there are only binaries for OS X. Linux users can download and compile the source.
 [Download for OS X](https://github.com/rubenvanassche/Space-Invaders/releases/download/1.0/Space.Invaders.OS.X.zip)
 
+## Dependencies
+
+```bash
+pacman -S sfml doxygen graphviz
+yay -S sfml2
+```
+
 ## Compiling
 	cmake .
 	make
@@ -25,7 +32,10 @@ At this moment there are only binaries for OS X. Linux users can download and co
 
 ## Running
 After compiling:
-	./SpaceInvaders
+
+```bash
+LD_LIBRARY_PATH=/opt/sfml2/lib:$LD_LIBRARY_PATH SpaceInvaders
+```
 
 ## Generating The Documentation
 Change the following line in the CMakeLists.txt file at the root directory from:
