@@ -1,23 +1,13 @@
 var dir_bbd6674d859f4cefaacb708974cac240 =
 [
     [ "CollisionController.cpp", "_collision_controller_8cpp.html", null ],
-    [ "CollisionController.h", "_collision_controller_8h.html", [
-      [ "CollisionController", "class_collision_controller.html", "class_collision_controller" ]
-    ] ],
+    [ "CollisionController.h", "_collision_controller_8h.html", "_collision_controller_8h" ],
     [ "EventController.cpp", "_event_controller_8cpp.html", null ],
-    [ "EventController.h", "_event_controller_8h.html", [
-      [ "EventController", "class_event_controller.html", "class_event_controller" ]
-    ] ],
+    [ "EventController.h", "_event_controller_8h.html", "_event_controller_8h" ],
     [ "GameController.cpp", "_game_controller_8cpp.html", null ],
-    [ "GameController.h", "_game_controller_8h.html", [
-      [ "GameController", "class_game_controller.html", "class_game_controller" ]
-    ] ],
+    [ "GameController.h", "_game_controller_8h.html", "_game_controller_8h" ],
     [ "MotionController.cpp", "_motion_controller_8cpp.html", null ],
-    [ "MotionController.h", "_motion_controller_8h.html", [
-      [ "MotionController", "class_motion_controller.html", "class_motion_controller" ]
-    ] ],
+    [ "MotionController.h", "_motion_controller_8h.html", "_motion_controller_8h" ],
     [ "ScreenController.cpp", "_screen_controller_8cpp.html", null ],
-    [ "ScreenController.h", "_screen_controller_8h.html", [
-      [ "ScreenController", "class_screen_controller.html", "class_screen_controller" ]
-    ] ]
+    [ "ScreenController.h", "_screen_controller_8h.html", "_screen_controller_8h" ]
 ];

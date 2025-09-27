@@ -1,3 +1,5 @@
 <map id="InfoView" name="InfoView">
-<area shape="rect" id="node2" href="$class_view.html" title="The Library for views. " alt="" coords="9,5,103,141"/>
+<area shape="rect" id="Node000001" title="View representing the bar with lives and score on top of the screen." alt="" coords="5,208,96,320"/>
+<area shape="rect" id="Node000002" href="$class_view.html" title="The Library for views." alt="" coords="9,5,93,160"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,175,54,208,48,208,48,175"/>
 </map>

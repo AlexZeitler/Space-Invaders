@@ -1,7 +1,13 @@
 <map id="Controller" name="Controller">
-<area shape="rect" id="node2" href="$class_collision_controller.html" title="The controller for handling collisions. " alt="" coords="5,176,163,283"/>
-<area shape="rect" id="node3" href="$class_event_controller.html" title="Controller which handles the events within the game. " alt="" coords="187,161,329,297"/>
-<area shape="rect" id="node4" href="$class_game_controller.html" title="The (main) Controller handling the game. " alt="" coords="355,161,499,297"/>
-<area shape="rect" id="node5" href="$class_motion_controller.html" title="The Controller who is in control of the motion during the game. " alt="" coords="523,147,671,312"/>
-<area shape="rect" id="node6" href="$class_screen_controller.html" title="The Controller who handles the screen. " alt="" coords="695,161,845,297"/>
+<area shape="rect" id="Node000001" title="The library for Controllers." alt="" coords="348,5,444,96"/>
+<area shape="rect" id="Node000002" href="$class_collision_controller.html" title="The controller for handling collisions." alt="" coords="5,187,151,299"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="334,70,251,100,206,121,165,146,141,166,120,189,116,185,138,162,162,142,204,116,249,95,333,65"/>
+<area shape="rect" id="Node000003" href="$class_event_controller.html" title="Controller which handles the events within the game." alt="" coords="176,165,306,320"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="351,109,320,146,303,167,299,164,316,142,347,106"/>
+<area shape="rect" id="Node000004" href="$class_game_controller.html" title="The (main) Controller handling the game." alt="" coords="330,165,461,320"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="398,111,398,165,393,165,393,111"/>
+<area shape="rect" id="Node000005" href="$class_motion_controller.html" title="The Controller who is in control of the motion during the game." alt="" coords="486,144,620,341"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="445,106,475,142,488,158,484,161,471,146,441,109"/>
+<area shape="rect" id="Node000006" href="$class_screen_controller.html" title="The Controller who handles the screen." alt="" coords="644,165,782,320"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="458,64,545,94,591,115,635,142,659,164,656,168,631,146,589,120,543,99,457,69"/>
 </map>

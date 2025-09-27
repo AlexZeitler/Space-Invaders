@@ -1,4 +1,7 @@
 <map id="Alien" name="Alien">
-<area shape="rect" id="node2" href="$class_screen_entity.html" title="The library for ScreenEntities(entities who should be displayed on the screen) " alt="" coords="5,147,131,533"/>
-<area shape="rect" id="node3" href="$class_entity.html" title="The library for Entities. " alt="" coords="26,6,109,98"/>
+<area shape="rect" id="Node000001" title="The Alien Entity." alt="" coords="11,709,114,885"/>
+<area shape="rect" id="Node000002" href="$class_screen_entity.html" title="The library for ScreenEntities(entities who should be displayed on the screen)" alt="" coords="5,144,120,661"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,676,66,710,60,710,60,676"/>
+<area shape="rect" id="Node000003" href="$class_entity.html" title="The library for Entities." alt="" coords="26,5,100,96"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="66,111,66,144,60,144,60,111"/>
 </map>

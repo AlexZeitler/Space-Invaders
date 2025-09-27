@@ -1,3 +1,5 @@
 <map id="CollisionController" name="CollisionController">
-<area shape="rect" id="node2" href="$class_controller.html" title="The library for Controllers. " alt="" coords="30,6,137,98"/>
+<area shape="rect" id="Node000001" title="The controller for handling collisions." alt="" coords="5,144,151,256"/>
+<area shape="rect" id="Node000002" href="$class_controller.html" title="The library for Controllers." alt="" coords="30,5,126,96"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,111,81,144,76,144,76,111"/>
 </map>

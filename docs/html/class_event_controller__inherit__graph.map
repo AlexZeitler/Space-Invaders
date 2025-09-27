@@ -1,3 +1,5 @@
 <map id="EventController" name="EventController">
-<area shape="rect" id="node2" href="$class_controller.html" title="The library for Controllers. " alt="" coords="22,6,129,98"/>
+<area shape="rect" id="Node000001" title="Controller which handles the events within the game." alt="" coords="5,144,135,299"/>
+<area shape="rect" id="Node000002" href="$class_controller.html" title="The library for Controllers." alt="" coords="22,5,118,96"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,111,73,145,68,145,68,111"/>
 </map>

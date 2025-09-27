@@ -1,27 +1,23 @@
-# compiler flags
-SET(CMAKE_CXX_FLAGS "-Wall")
-SET(CMAKE_CXX_FLAGS "-std=c++11")
+# Alle Quellen einsammeln
+file(GLOB_RECURSE SRC CONFIGURE_DEPENDS
+  ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp
+)
 
-# Extend the CMake module path to find the FindSFML.cmake
-# file in {project root}/cmake/Modules
-SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${PROJECT_SOURCE_DIR}/CMake")
+# SFML 2 finden
+find_package(SFML 2 REQUIRED COMPONENTS system window graphics)
 
-# Look for SFML >= 2.0, with the specific subcomponents listed below
-FIND_PACKAGE(SFML 2 COMPONENTS system window graphics)
+# Executable anlegen
+add_executable(SpaceInvaders ${SRC})
 
-# The source files to compile
-#SET(SRC SpaceInvaders.cpp)
-file(GLOB_RECURSE SRC ${PROJECT_SOURCE_DIR}/src/*.cpp)
+# C++17 für dieses Target absichern
+target_compile_features(SpaceInvaders PRIVATE cxx_std_17)
 
-# Add include dirs for SFML
-# (The SFML_INCLUDE_DIR variable is defined by FindSFML.cmake, if SFML was found)
-INCLUDE_DIRECTORIES(${SFML_INCLUDE_DIR})
+# Gegen SFML 2 linken
+target_link_libraries(SpaceInvaders PRIVATE
+  sfml-graphics
+  sfml-window
+  sfml-system
+)
 
-# The program we're compiling with the sources set above
-ADD_EXECUTABLE(SpaceInvaders ${SRC})
-
-# Link target to SFML libs
-# (The SFML_LIBRARIES variable is defined by FindSFML.cmake, if SFML was found)
-TARGET_LINK_LIBRARIES(SpaceInvaders ${SFML_LIBRARIES})
-
-INSTALL(TARGETS SpaceInvaders DESTINATION ${PROJECT_SOURCE_DIR})
+# Installation ins bin-Verzeichnis
+install(TARGETS SpaceInvaders RUNTIME DESTINATION bin)

@@ -1,3 +1,5 @@
 <map id="GameEndedView" name="GameEndedView">
-<area shape="rect" id="node2" href="$class_view.html" title="The Library for views. " alt="" coords="34,5,128,141"/>
+<area shape="rect" id="Node000001" title="View representing a GameEnded Screen." alt="" coords="5,208,146,320"/>
+<area shape="rect" id="Node000002" href="$class_view.html" title="The Library for views." alt="" coords="34,5,118,160"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,175,78,208,73,208,73,175"/>
 </map>

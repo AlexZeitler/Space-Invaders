@@ -1,3 +1,5 @@
 <map id="StartScreenView" name="StartScreenView">
-<area shape="rect" id="node2" href="$class_view.html" title="The Library for views. " alt="" coords="33,5,127,141"/>
+<area shape="rect" id="Node000001" title="View representing the start screen at the bgeiining of the game." alt="" coords="5,208,143,320"/>
+<area shape="rect" id="Node000002" href="$class_view.html" title="The Library for views." alt="" coords="32,5,116,160"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,175,77,208,72,208,72,175"/>
 </map>

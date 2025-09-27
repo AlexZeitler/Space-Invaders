@@ -1,3 +1,5 @@
 <map id="WallFactory" name="WallFactory">
-<area shape="rect" id="node2" href="$class_factory.html" title="The library for Factories. " alt="" coords="18,6,112,98"/>
+<area shape="rect" id="Node000001" title="A factory for building Walls." alt="" coords="5,144,114,256"/>
+<area shape="rect" id="Node000002" href="$class_factory.html" title="The library for Factories." alt="" coords="18,5,102,96"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,111,62,144,57,144,57,111"/>
 </map>

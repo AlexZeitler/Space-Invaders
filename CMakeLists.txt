@@ -1,18 +1,31 @@
-CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
-PROJECT(SpaceInvaders)
+cmake_minimum_required(VERSION 3.16)
+project(SpaceInvaders LANGUAGES CXX)
 
-# C++ Flags
-SET(CMAKE_CXX_FLAGS "-Wall")
-SET(CMAKE_CXX_FLAGS "-g")
-SET(CMAKE_CXX_FLAGS "-ggdb")
-SET(CMAKE_CXX_FLAGS "-std=c++11")
+# C++17 global festlegen
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
 
-# Include the source
-ADD_SUBDIRECTORY(src)
+# Standard-Build-Type (falls nicht angegeben)
+if(NOT CMAKE_BUILD_TYPE)
+  set(CMAKE_BUILD_TYPE RelWithDebInfo CACHE STRING "Build type" FORCE)
+endif()
 
-# Documentation
-SET(BUILD_DOCS TRUE)
+# Compiler-Warnings
+if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
 
+# Unterordner mit Code
+add_subdirectory(src)
+
+# Dokumentation optional
+option(BUILD_DOCS "Build documentation" ON)
 if(BUILD_DOCS)
+  find_package(Doxygen)
+  if(DOXYGEN_FOUND)
     add_subdirectory(docs)
+  else()
+    message(STATUS "Doxygen nicht gefunden – Doku wird übersprungen.")
+  endif()
 endif()

@@ -1,3 +1,5 @@
 <map id="GunView" name="GunView">
-<area shape="rect" id="node2" href="$class_view.html" title="The Library for views. " alt="" coords="10,5,104,141"/>
+<area shape="rect" id="Node000001" title="View representing a Gun." alt="" coords="5,208,98,363"/>
+<area shape="rect" id="Node000002" href="$class_view.html" title="The Library for views." alt="" coords="10,5,94,160"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,175,54,208,49,208,49,175"/>
 </map>

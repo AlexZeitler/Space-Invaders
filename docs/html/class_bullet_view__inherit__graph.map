@@ -1,3 +1,5 @@
 <map id="BulletView" name="BulletView">
-<area shape="rect" id="node2" href="$class_view.html" title="The Library for views. " alt="" coords="14,5,108,141"/>
+<area shape="rect" id="Node000001" title="View representing a Bullet." alt="" coords="5,208,107,341"/>
+<area shape="rect" id="Node000002" href="$class_view.html" title="The Library for views." alt="" coords="14,5,98,160"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="59,175,59,208,54,208,54,175"/>
 </map>

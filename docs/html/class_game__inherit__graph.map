@@ -1,3 +1,5 @@
 <map id="Game" name="Game">
-<area shape="rect" id="node2" href="$class_entity.html" title="The library for Entities. " alt="" coords="17,6,100,98"/>
+<area shape="rect" id="Node000001" title="An Entity representing the Game, only one should be made." alt="" coords="5,144,99,341"/>
+<area shape="rect" id="Node000002" href="$class_entity.html" title="The library for Entities." alt="" coords="15,5,89,96"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,111,55,144,50,144,50,111"/>
 </map>

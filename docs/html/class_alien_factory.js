@@ -4,5 +4,6 @@ var class_alien_factory =
     [ "createCarl", "class_alien_factory.html#af1cd8590bb535fbbb6ee1ddb6483ee01", null ],
     [ "createDoug", "class_alien_factory.html#a202ca5a50ccdeaaa2081bc9abe8a4c4e", null ],
     [ "createMuntz", "class_alien_factory.html#a85f583d997b788e2f6472744578b1b15", null ],
-    [ "createRussel", "class_alien_factory.html#a0acb9107f4549a21fcfda87b5507a8e4", null ]
+    [ "createRussel", "class_alien_factory.html#a0acb9107f4549a21fcfda87b5507a8e4", null ],
+    [ "Factory", "class_alien_factory.html#ac2b0105a9e50ee333f14d832d5366963", null ]
 ];
