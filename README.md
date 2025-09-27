@@ -1,6 +1,6 @@
 # Space Invaders - Arch / Omarchy build
 
-![Screenshot](https://raw.githubusercontent.com/rubenvanassche/Space-Invaders/master/docs/screenshot.jpg)
+![Screenshot](https://raw.githubusercontent.com/AlexZeitler/Space-Invaders/master/docs/screenshot.jpg)
 
 ## Introduction
 Welcome, to the Space Invaders project, in this docuemnt you find information about how to compile and run the application. Dependencies are SFML and off course a c++ complier+ linker.
